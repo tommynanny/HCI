@@ -12,20 +12,41 @@ MonoBehaviour:
   m_Name: Theme_1
   m_EditorClassIdentifier: 
   palette:
-  - name: 
-    tag: 
-    normal: {r: 0.35686275, g: 0.21176471, b: 0.08235294, a: 1}
-    highlighted: {r: 0.5498039, g: 0.4482353, b: 0.35764706, a: 1}
-    pressed: {r: 0.14274509, g: 0.08470588, b: 0.032941174, a: 1}
+  - name: InputField
+    tag: InputField
+    normal: {r: 0.17034532, g: 0.41509432, b: 0.3026421, a: 1}
+    highlighted: {r: 0.08627451, g: 0.23137257, b: 0.16470589, a: 1}
+    pressed: {r: 0.08627451, g: 0.23137257, b: 0.16470589, a: 1}
+    disabled: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: TextButton
+    tag: Button
+    normal: {r: 0.2189189, g: 0.6, b: 0.42162165, a: 1}
+    highlighted: {r: 0.45324326, g: 0.72, b: 0.59513515, a: 1}
+    pressed: {r: 0.08756755, g: 0.24, b: 0.16864865, a: 1}
+    disabled: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: IconButton
+    tag: IconButton
+    normal: {r: 0.29189187, g: 0.8, b: 0.56216216, a: 1}
+    highlighted: {r: 0.5043243, g: 0.86, b: 0.6935135, a: 1}
+    pressed: {r: 0.116756745, g: 0.32, b: 0.22486486, a: 1}
     disabled: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
     detail: {r: 1, g: 1, b: 1, a: 1}
   - name: 
-    tag: 
-    normal: {r: 0.9490196, g: 0.43137255, b: 0.14509805, a: 1}
-    highlighted: {r: 0.96431375, g: 0.6019608, b: 0.40156865, a: 1}
-    pressed: {r: 0.37960783, g: 0.17254901, b: 0.058039214, a: 1}
+    tag: Text
+    normal: {r: 0.2189189, g: 0.6, b: 0.42162165, a: 1}
+    highlighted: {r: 0.45324326, g: 0.72, b: 0.59513515, a: 1}
+    pressed: {r: 0.08756755, g: 0.24, b: 0.16864865, a: 1}
     disabled: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
     detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: 
+    tag: TextButton
+    normal: {r: 1, g: 1, b: 1, a: 0}
+    highlighted: {r: 1, g: 1, b: 1, a: 0}
+    pressed: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 0.15294118}
+    disabled: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+    detail: {r: 0.121568635, g: 0.29411766, b: 0.21176472, a: 1}
   effectSets:
   - name: New Effect
     tag: 
@@ -45,6 +66,27 @@ MonoBehaviour:
     mirrorSkew: 0
     mirrorTop: {r: 1, g: 1, b: 1, a: 1}
     mirrorBottom: {r: 1, g: 1, b: 1, a: 1}
+    skewEffect: 0
+    skew: 0
+    perspective: 1
+  - name: New Effect
+    tag: 
+    gradient: 0
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0, g: 0, b: 0, a: 1}
+    shadow: 0
+    shadowColor: {r: 0, g: 0, b: 0, a: 1}
+    shadowOffset: {x: 2, y: -2}
+    radialGradient: 0
+    radialColor: {r: 1, g: 1, b: 1, a: 1}
+    centerPosition: {x: 0, y: 0}
+    radius: 100
+    mirrorEffect: 1
+    mirrorScale: 1
+    mirrorOffset: {x: 0, y: -5}
+    mirrorSkew: 0
+    mirrorTop: {r: 1, g: 1, b: 1, a: 0.23921569}
+    mirrorBottom: {r: 1, g: 1, b: 1, a: 0}
     skewEffect: 0
     skew: 0
     perspective: 1
