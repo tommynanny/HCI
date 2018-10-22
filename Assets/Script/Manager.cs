@@ -52,7 +52,7 @@ public class Manager : MonoBehaviour
         {
             p.gameObject.SetActive(false);
         }
-        Pages[x-1].gameObject.SetActive(true);
+        Pages[x].gameObject.SetActive(true);
     }
 
 
