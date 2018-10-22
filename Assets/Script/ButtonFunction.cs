@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ButtonFuction : MonoBehaviour {
+public class ButtonFunction : MonoBehaviour {
 
     public int GotoPageIndex;
     public void GoToPage()

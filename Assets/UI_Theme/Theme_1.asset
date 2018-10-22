@@ -42,51 +42,16 @@ MonoBehaviour:
     detail: {r: 1, g: 1, b: 1, a: 1}
   - name: 
     tag: TextButton
-    normal: {r: 1, g: 1, b: 1, a: 0}
-    highlighted: {r: 1, g: 1, b: 1, a: 0}
-    pressed: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 0.15294118}
+    normal: {r: 0.12156863, g: 0.6, b: 0.78431374, a: 1}
+    highlighted: {r: 0.38509804, g: 0.72, b: 0.84901965, a: 1}
+    pressed: {r: 0.048627447, g: 0.24, b: 0.31372547, a: 1}
     disabled: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
-    detail: {r: 0.121568635, g: 0.29411766, b: 0.21176472, a: 1}
-  effectSets:
-  - name: New Effect
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: 
     tag: 
-    gradient: 0
-    gradientTop: {r: 1, g: 1, b: 1, a: 1}
-    gradientBottom: {r: 0, g: 0, b: 0, a: 1}
-    shadow: 0
-    shadowColor: {r: 0, g: 0, b: 0, a: 1}
-    shadowOffset: {x: 2, y: -2}
-    radialGradient: 0
-    radialColor: {r: 1, g: 1, b: 1, a: 1}
-    centerPosition: {x: 0, y: 0}
-    radius: 100
-    mirrorEffect: 0
-    mirrorScale: 1
-    mirrorOffset: {x: 0, y: 0}
-    mirrorSkew: 0
-    mirrorTop: {r: 1, g: 1, b: 1, a: 1}
-    mirrorBottom: {r: 1, g: 1, b: 1, a: 1}
-    skewEffect: 0
-    skew: 0
-    perspective: 1
-  - name: New Effect
-    tag: 
-    gradient: 0
-    gradientTop: {r: 1, g: 1, b: 1, a: 1}
-    gradientBottom: {r: 0, g: 0, b: 0, a: 1}
-    shadow: 0
-    shadowColor: {r: 0, g: 0, b: 0, a: 1}
-    shadowOffset: {x: 2, y: -2}
-    radialGradient: 0
-    radialColor: {r: 1, g: 1, b: 1, a: 1}
-    centerPosition: {x: 0, y: 0}
-    radius: 100
-    mirrorEffect: 1
-    mirrorScale: 1
-    mirrorOffset: {x: 0, y: -5}
-    mirrorSkew: 0
-    mirrorTop: {r: 1, g: 1, b: 1, a: 0.23921569}
-    mirrorBottom: {r: 1, g: 1, b: 1, a: 0}
-    skewEffect: 0
-    skew: 0
-    perspective: 1
+    normal: {r: 0.9372549, g: 0.39607844, b: 0.39607844, a: 1}
+    highlighted: {r: 0.9560784, g: 0.5772549, b: 0.5772549, a: 1}
+    pressed: {r: 0.37490195, g: 0.15843137, b: 0.15843137, a: 1}
+    disabled: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  effectSets: []

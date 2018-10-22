@@ -14,7 +14,8 @@ public class Login_Button : MonoBehaviour {
             case "careyuyu":
             case "snichola":
             case "mattc97":
-                canPress = true;
+			case "hci":
+				canPress = true;
                 break;
             default:
                 canPress = false;
@@ -25,7 +26,7 @@ public class Login_Button : MonoBehaviour {
     public void Login_Click()
     {
         if (!canPress) return;
-        Manager.instance.GoToPage(2);
+		Manager.instance.GotoMenu();
     }
 
 
